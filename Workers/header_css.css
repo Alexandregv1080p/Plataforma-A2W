@@ -6,7 +6,7 @@
 
 #head{
     position: absolute;
-    width: 120%;
+    width: 100%;
     height: 16%;
     left: 0px;
     top: 0px;
@@ -49,12 +49,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    left:80%;
+    left:78%;
     padding-right: 10%;
     top: 30%;
 }
 .info{
-    right: 20%;
+    right: 29%;
     padding-left: 35%;
     font-family: 'Inter';
     font-style: normal;
