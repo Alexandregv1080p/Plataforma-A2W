@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#img-vs1{
+    position: absolute;
+    width: 70%;
+    height: 1024px;
+    left: -10%;
+    top: 2px;
+}
+#logo{
+    position: absolute;
+    width: 338px;
+    height: 145px;
+    left: calc(50% - 338px/2 - 511px);
+    top: calc(50% - 145px/2 - 389.5px);
+}
+#eclipse{
+    position: absolute;
+    width: 855px;
+    height: 1026px;
+    left: 40%;
+    top: 0px;
+    background: url(Ellipse\ 62\ \(1\).png)
+}
