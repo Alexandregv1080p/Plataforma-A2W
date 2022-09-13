@@ -53,9 +53,6 @@
     padding-right: 10%;
     top: 30%;
 }
-#contenier:hover{
-    height: 30%;
-}
 .info{
     right: 29%;
     padding-left: 35%;
@@ -64,7 +61,8 @@
     font-weight: 400;
     font-size: 28px;
     text-decoration: none;
-    color: white
+    color: white;
+    position: static;
 }
 #perfil{
     right: 29%;
@@ -83,17 +81,25 @@
 .dropdown-content{
    display: none;
    position: absolute;
-   background-color: aqua;
+   background-color: white;
    min-width: 80px;
    box-shadow: 0px 7px 17px 0 rgba(red, green, blue, alpha);
    z-index:1;
    padding: 12px 12px;  
 }
-.dropdown-content ul{
+.dropdown-content ul {
     list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.dropdown-content a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    
 }
 
 .menu-dropdown:hover .dropdown-content {
    display: block;
-   
 }
