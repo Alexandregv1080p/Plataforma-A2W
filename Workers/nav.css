@@ -3,6 +3,36 @@
     margin: 0;
     border: 0;
 }
-h1{
-    bottom: 49%;
+#model{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 70px;
+    top: 187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #0E333D;
+}
+table tr{
+    position: absolute;
+    border-collapse: collapse;
+    top: 25%;
+    left: 2%;
+    height: 2%;
+
+}
+table{
+    width: 100%;
+}
+.th-head{
+    border: 1px solid black;
+    padding: 20px 10px;
+    font-size: 24px;
+    width: 5%;
+}
+.check{
+    padding: 100px;
 }
