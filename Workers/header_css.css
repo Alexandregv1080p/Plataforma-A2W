@@ -53,6 +53,9 @@
     padding-right: 10%;
     top: 30%;
 }
+#contenier:hover{
+    height: 30%;
+}
 .info{
     right: 29%;
     padding-left: 35%;
@@ -73,5 +76,24 @@
     text-decoration: none;
     color: white
 }
+.menu-dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: aqua;
+   min-width: 80px;
+   box-shadow: 0px 7px 17px 0 rgba(red, green, blue, alpha);
+   z-index:1;
+   padding: 12px 12px;  
+}
+.dropdown-content ul{
+    list-style-type: none;
+}
 
-  
+.menu-dropdown:hover .dropdown-content {
+   display: block;
+   
+}
