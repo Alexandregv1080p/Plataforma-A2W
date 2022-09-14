@@ -27,7 +27,7 @@ table,th,td{
     text-align: center;
     border-collapse: collapse;
     font-weight: normal;
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Inter var';
     color: #0E333D;
 }
 table{
@@ -35,14 +35,29 @@ table{
     top: 23%;
     left: 5%;
 }
-.bola{
-    width: 30%;
-}
 #check{
     min-width: 40px;
     min-height: 40px;
     margin-right: 5px;
 }
-input:checked{
-    color: grey;
+.circulo-verde{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(65, 199, 60);
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.circulo-amarelo{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(204, 187, 31);
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.circulo-vermelho{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(245, 10, 10);
+    border-radius: 50px;
+    margin-left: 25px;
 }
