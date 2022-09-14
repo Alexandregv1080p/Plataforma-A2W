@@ -1,8 +1,11 @@
-var btn = document.getElementsByClassName('#btn');
-
-function onClickLeft(){
-    btn.style.left = '0px';
-}
-function onClickRight(){
-    btn.style.left = '10px'
+function onClick(){
+    var btn = document.querySelector("#btn")
+    var sn = document.querySelector("#sn")
+    if(btn.checked){
+        sn.innerHTML = 'SIM'
+    }else
+    {
+        sn.innerHTML = 'NÃO'
+    }
+    
 }

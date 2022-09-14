@@ -10,7 +10,7 @@
 </head>
 <body>
     <header id="head">
-        <div id="logo"></div>
+        <a href="C:\Users\comer\OneDrive\Documentos\GitHub\Plataforma-A2W\Workers\work.html"><div id="logo"></div></a>
         <div id="pesquisa">
             <input type="text" id="buscar" placeholder="Buscar worker e cliente">
             <img src="Buscar.png" id="lupa" alt="">
@@ -42,13 +42,15 @@
         <h1 id="cl">Cliente</h1>
         <button value="Adicionar" id="add">Adicionar</button>
         <fieldset>
-            <legend>Nome Cliente</legend>
+            <legend>Nome do Cliente</legend>
             <input type="text" id="nome-cliente">
         </fieldset>
-        <div class="form-box">
-            <div class="button-box">
-                <div onclick="" class="btn"></div>
-            </div>
-        </div>
+        <label class="switch">
+        <input type="checkbox" id="btn" onclick="onClick()">
+        <span class="slider round"></span>
+        <span id="atc">Ativo:</span>
+        <span id="sn">Não</span>
+        <script src="button.js"></script>
+</label>
 </body>
 </html>
