@@ -10,13 +10,7 @@ table,tr{
 table th{
     padding: 0px 100px;
 }
-table .esquerda{
-    padding-left: 20px;
-    
-}
-table .direita{
-    padding-right: 250px;
-}
+
 table{
     position: absolute;
     width: 60%;
