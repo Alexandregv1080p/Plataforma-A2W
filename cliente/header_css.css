@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#head{
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    left: 0px;
+    top: 0px;
+    background: #0E333D;
+}
+#logo{
+    position: absolute;
+    width: 7.5%;
+    height: 55%;
+    left: 3%;
+    top: 20%;
+    background: url(A2W\ PA\ branco\ \(2\)\(1\)\ 1.png);
+}
+#buscar{
+    position: absolute;
+    width: 44.4%;
+    height: 41%;
+    left: 17%;
+    top: 40px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    font-weight: 300;
+    padding-left: 5%;
+    font-size: 25px;
+    color: #8795a2;
+}
+#lupa{
+    box-sizing: border-box;
+    position: absolute;
+    left: 18%;
+    right: 78.26%;
+    top:37%;
+    width: 2%;
+    bottom: 90.92%;
+    cursor: pointer;
+}
+#contenier{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:68%;
+    right: 7%;
+    padding-right: 6%;
+    top: 30%;
+}
+.info{
+    right: 20%;
+    padding-left: 25%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    position: static;
+}
+#perfil{
+    padding-left: 90%;
+
+}
+.menu-dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 5%;
+   box-shadow: 0px 5px 5px 3px;
+   z-index:1;
+   padding:22px 14px;
+   padding-left: 10px;
+   padding-top: 1%;
+}
+.dropdown-content ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 28px;
+    top: 5%;
+}
+.dropdown-content a{
+    list-style-type: none;
+    text-decoration: none;  
+}
+
+.menu-dropdown:hover .dropdown-content {
+   display: block;
+   left: 20%;
+
+}

@@ -8,20 +8,18 @@ table,tr{
     color: #0E333D;
 }
 table th{
-    padding: 0px 120px;
+    padding: 0px 100px;
 }
 table .esquerda{
     padding-left: 20px;
     
 }
 table .direita{
-    padding-right: 300px;
-    margin:300px;
+    padding-right: 250px;
 }
 table{
-
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 706px;
     left: 70px;
     top: 261px;
@@ -29,4 +27,5 @@ table{
     border: 1px solid #494848;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    font-family: 'Inter', sans-serif;
 }
