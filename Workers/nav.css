@@ -16,23 +16,21 @@
     line-height: 31px;
     color: #0E333D;
 }
-table tr{
-    position: absolute;
+table,th,td{
+    padding: 18px 40px;
+    border: 1px solid black;
+    font-size: 24px;
+    text-align: center;
     border-collapse: collapse;
-    top: 25%;
-    left: 2%;
-    height: 2%;
-
 }
 table{
-    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
 }
-.th-head{
-    border: 1px solid black;
-    padding: 20px 10px;
-    font-size: 24px;
-    width: 5%;
+.bola{
+    width: 40%;
 }
-.check{
-    padding: 100px;
+#check{
+    width: 20px;
 }
