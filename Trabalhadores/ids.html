@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="header_css.css">
+    <link rel="stylesheet" href="nav-ids.css">
 </head>
 <body>
-    
+    <header id="head">
+        <div id="logo"></div>
+        <div id="pesquisa">
+            <input type="text" id="buscar" placeholder="Buscar worker e cliente">
+            <img src="Buscar.png" id="lupa" alt="">
+        </div>
+
+        <div id="contenier">
+            <div class="menu-dropdown">
+            <a href="" class="info">Cadastros</a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="">Clientes</a></li>    
+                    <li><a href="">Workers</a></li>
+                </ul>
+            </div>
+            </div>
+            
+            <a href="" class="info">Consulta</a>
+            
+            <div class="menu-dropdown">
+            <img src="Vector.png" alt="" id="perfil">
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="">Perfil</a></li>
+                    <li><a href="">Sair</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>DATA DE CADASTRO</th>
+                <th>STATUS</th>
+            </tr>
+        </thead>
+    </table>
 </body>
 </html>

@@ -1,0 +1,15 @@
+table,tr,td{
+    padding: 205px 58px;
+    border: 1px solid black;
+    font-size: 29px;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: normal;
+    font-family: 'Inter var';
+    color: #0E333D;
+}
+table{
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
