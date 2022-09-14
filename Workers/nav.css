@@ -7,30 +7,36 @@
     position: absolute;
     width: 208px;
     height: 25px;
-    left: 70px;
-    top: 187px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
+    left: 5%;
+    top: 19%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 22px;
     line-height: 31px;
     color: #0E333D;
 }
 table,th,td{
-    padding: 18px 40px;
+    padding: 15px 58px;
     border: 1px solid black;
-    font-size: 24px;
+    font-size: 29px;
     text-align: center;
     border-collapse: collapse;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 table{
     position: absolute;
-    top: 20%;
+    top: 23%;
     left: 5%;
 }
 .bola{
-    width: 40%;
+    width: 30%;
 }
 #check{
-    width: 20px;
+    min-width: 40px;
+    min-height: 40px;
+    margin-right: 5px;
+}
+input:checked{
+    color: grey;
 }
