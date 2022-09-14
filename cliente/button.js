@@ -1,4 +1,4 @@
-var btn = document.getElementsByClassName('.btn');
+var btn = document.getElementsByClassName('#btn');
 
 function onClickLeft(){
     btn.style.left = '0px';
