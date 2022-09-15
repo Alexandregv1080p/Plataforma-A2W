@@ -21,14 +21,25 @@ html { font-family: 'Inter', sans-serif; }
     color: #0E333D;
 }
 table,th,td{
-    padding: 15px 58px;
+    padding: 0% 70px;
     border: 1px solid black;
-    font-size: 29px;
-    text-align: center;
+    font-size: 28px;
     border-collapse: collapse;
     font-weight: normal;
     font-family: 'Inter var';
     color: #0E333D;
+}
+table,th{
+    text-align: center;
+    padding-left: 500px;
+}
+table ,th,td:first-child{
+    padding-top: 2%;
+
+}
+table ,th,td:last-child{
+    padding-left:4%;
+    padding-top: 1%;
 }
 table{
     position: absolute;
@@ -36,27 +47,38 @@ table{
     left: 5%;
 }
 #check{
-    min-width: 40px;
-    min-height: 40px;
-    margin-right: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    padding-right: 10px;
+}
+#add{
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 88%;
+    top:17%;
+    background: #0E333D;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }
 .circulo-verde{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(65, 199, 60);
     border-radius: 50px;
     margin-left: 25px;
 }
 .circulo-amarelo{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(204, 187, 31);
     border-radius: 50px;
     margin-left: 25px;
 }
 .circulo-vermelho{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(245, 10, 10);
     border-radius: 50px;
     margin-left: 25px;

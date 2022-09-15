@@ -34,6 +34,9 @@
     font-size: 25px;
     color: #8795a2;
 }
+#buscar::placeholder {
+    opacity: 0.3;
+}
 #lupa{
     box-sizing: border-box;
     position: absolute;
