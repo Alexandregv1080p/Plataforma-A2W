@@ -1,0 +1,44 @@
+#cl{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 70px;
+    top: 110%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #0E333D;
+}
+#add{
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 88%;
+    top:110%;
+    background: #0E333D;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+fieldset{
+    top: 140%;
+    left: 4%;
+    width: 70%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nome-perfil{
+    width: 80%;
+    outline:none;  /*remove as bordas do input*/
+    font-size: 20px;
+}
+#content{
+    position: absolute;
+    display: flex;
+    left: 4%;
+    top: 400px;
+    margin: 30px;
+}
