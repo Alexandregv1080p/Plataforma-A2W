@@ -1,0 +1,159 @@
+#cl{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 70px;
+    top: 110%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #0E333D;
+}
+#add{
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 88%;
+    top:120%;
+    background: #0E333D;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#nome{
+    position: absolute;
+    top: 160%;
+    left: 4%;
+    width: 90%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#model{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 5%;
+    top: 180px;
+    font-family: 'Inter var', sans-serif; 
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 31px;
+    color: #0E333D;
+}
+#nome-cliente{
+    width: 50%;
+    padding:10px;
+    outline:none;
+    font-size: 20px;
+}
+#caminho{
+    position: absolute;
+    top: 230%;
+    left: 4%;
+    width: 90%;
+    height: 40%;
+    border: 1px solid rgb(119, 106, 106);
+    border-radius: 5px;
+}
+fieldset{
+    font-size: 20px;
+    padding-left: 10px;
+    padding: 5px;
+    color: grey;
+}
+#content-2{
+    position: absolute;
+    display:flex;
+    left:2.9%;
+    right: 7%;
+    top: 450px;
+    width: 93%;
+}
+.field-2{
+    top: 140%;
+    left: 1%;
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 5px;
+    color: rgb(126, 138, 126);
+}
+.inputs-workers{
+    width: 80%;
+    outline:none;  /*remove as bordas do input*/
+    font-size: 20px;
+}
+.switch {
+    position: absolute;
+    display: inline-block;
+    top: 6 00px;
+    left: 130px;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+#atc{
+    position: absolute;
+    top:10px;
+    right: 70px;
+    font-size: 18px;
+}
+#sn{
+    position: absolute;
+    top:10px;
+    left: 70px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
