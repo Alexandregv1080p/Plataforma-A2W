@@ -31,7 +31,7 @@
             
             <div class="menu-dropdown">
             <img src="Vector.png" alt="" id="perfil">
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="left">
                 <ul>
                     <li><a href="">Perfil</a></li>
                     <li><a href="">Sair</a></li>
@@ -43,17 +43,31 @@
         <button value="Adicionar" id="add">Atualizar</button>
 
             <div id="content">
-                <fieldset>
-                    <legend>Nome do Cliente</legend>
+                <fieldset class="field-1">
+                    <legend>Usuário</legend>
                     <input type="text" class="nome-perfil">
                 </fieldset>
-                <fieldset>
+                <fieldset class="field-1">
                     <legend>Email</legend>
                     <input type="text" class="nome-perfil">
                 </fieldset>
             </div>
-  
-        
+            <button type="button" id="altera" onclick="altera()">Alterar senha?</button>
+            <div id="content-2">
+                <fieldset class="field-2">
+                    <legend>Senha atual</legend>
+                    <input type="text" class="nome-perfil">
+                </fieldset>
+                <fieldset class="field-2">
+                    <legend>Nova senha</legend>
+                    <input type="text" class="nome-perfil">
+                </fieldset>
+                <fieldset class="field-2">
+                    <legend>Confirmar nova senha</legend>
+                    <input type="text" class="nome-perfil">
+                </fieldset>
+            </div>
+            <script src="perfil-js.js"></script>
 </label>
 </body>
 </html>

@@ -84,6 +84,10 @@
    padding-left: 10px;
    padding-top: 1%;
 }
+#left{
+    width: 70px;
+    margin-left: 25px;
+ }
 .dropdown-content ul {
     list-style-type: none;
     text-decoration: none;

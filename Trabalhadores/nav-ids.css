@@ -23,3 +23,26 @@ table{
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
 }
+#model{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 5%;
+    top: 19%;
+    font-family: 'Inter var', sans-serif; 
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 31px;
+    color: #0E333D;
+}
+#add{
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 88%;
+    top:20%;
+    background: #0E333D;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}

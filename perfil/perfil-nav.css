@@ -22,14 +22,7 @@
     color: white;
     cursor: pointer;
 }
-fieldset{
-    top: 140%;
-    left: 4%;
-    width: 70%;
-    height: 40%;
-    border: 1px solid black;
-    border-radius: 5px;
-}
+
 .nome-perfil{
     width: 80%;
     outline:none;  /*remove as bordas do input*/
@@ -37,8 +30,47 @@ fieldset{
 }
 #content{
     position: absolute;
-    display: flex;
-    left: 4%;
+    display:flex;
+    left:2%;
+    right: 7%;
+    top: 200px;
+    width: 92%;
+}
+.field-1{
+    top: 140%;
+    left: 1%;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 5px;
+    color: rgb(126, 138, 126);
+}
+legend{
+    font-size: 24px;
+}
+#content-2{
+    position: absolute;
+    display:flex;
+    left:2%;
+    right: 7%;
     top: 400px;
-    margin: 30px;
+    width: 92%;
+}
+.field-2{
+    top: 140%;
+    left: 1%;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 5px;
+    color: rgb(126, 138, 126);
+}
+#altera{
+    position: absolute;
+    top: 350px;
+    left:60px;
+    font-size: 20px;
+    cursor: pointer;
 }
