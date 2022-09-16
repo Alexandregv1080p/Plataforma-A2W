@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+#model{
+    position: absolute;
+    width: 208px;
+    height: 25px;
+    left: 5%;
+    top: 19%;
+    font-family: 'Inter var', sans-serif; 
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 31px;
+    color: #0E333D;
+}
+table,th,td{
+    padding: 1px 110px;
+    border: 1px solid black;
+    font-size: 28px;
+    border-collapse: collapse;
+    font-weight: normal;
+    font-family: 'Inter var';
+    color: #0E333D;
+}
+td{
+    padding: 20px 70px;
+}
+table,th{
+    text-align: center;
+}
+table ,th,td:first-child{
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+}
+
+table{
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+
+
