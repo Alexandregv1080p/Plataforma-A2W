@@ -47,126 +47,127 @@
             </div>
         </div>
     </header>
+    <button value="Adicionar" onclick="altera()" id="add">Start</button>
     <div id="cor-de-fundo">
-    <div id="cor-de-fundo" class="responsive">
         <h1 id="model">Monitoramento</h1>
-        <button value="Adicionar" onclick="altera()" id="add">Start</button>
-        <table>
-            <thead>
-                <tr>
-                    <th>Cliente/<br>Worker</th>
-                    <th>Worker1</th>
-                    <th>Worker2</th>
-                    <th>Worker3</th>
-                    <th>Worker4</th>
-                    <th>Worker5</th>
-                    <th>Worker6</th>
-                    <th><input type="checkbox" class="check" ></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Adubos</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></th>
-                </tr>
-                <tr>
-                    <td>Atua.A</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-amarelo"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Geagro</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></th>
-                </tr>
-                <tr>
-                    <td>Priori</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Protec</td>
-                    <td><div class="circulo-amarelo"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Irm</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Cliente 1</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td class="teste"><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Cliente 2</td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-amarelo"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Cliente 3</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-amarelo"></div></td>
-                    <td><input type="checkbox" class="check"></td>
-                </tr>
-                <tr>
-                    <td>Cliente 4</td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-vermelho"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><div class="circulo-verde"></div></td>
-                    <td><input type="checkbox" class="check"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="contenier-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cliente/<br>Worker</th>
+                        <th>Worker1</th>
+                        <th>Worker2</th>
+                        <th>Worker3</th>
+                        <th>Worker4</th>
+                        <th>Worker5</th>
+                        <th>Worker6</th>
+                        <th><input type="checkbox" class="check" ></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adubos</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></th>
+                    </tr>
+                    <tr>
+                        <td>Atua.A</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-amarelo"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Geagro</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></th>
+                    </tr>
+                    <tr>
+                        <td>Priori</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Protec</td>
+                        <td><div class="circulo-amarelo"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Irm</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Cliente 1</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td class="teste"><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Cliente 2</td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-amarelo"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Cliente 3</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-amarelo"></div></td>
+                        <td><input type="checkbox" class="check"></td>
+                    </tr>
+                    <tr>
+                        <td>Cliente 4</td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-vermelho"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><div class="circulo-verde"></div></td>
+                        <td><input type="checkbox" class="check"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
         <div id="menu-start">
             <div id="parte-cima"><h1>Geagro</h1><div id="fechar" onclick="altera()"><div id="xzinho">X</div></div></div>
