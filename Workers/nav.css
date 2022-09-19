@@ -236,57 +236,19 @@ input:checked ~ #check{
 #contenier-table{
     overflow-x: auto;
 }
-@media screen and (max-width:1400){
-    td,th{
-        padding: 20px 15px;
+#tabela{
+    width: 90%;
+}
+@media(max-width:1400){
+    #tabela thead{
+        display: none;
     }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 19%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 22px;
-        line-height: 31px;
-        color: #0E333D;
+    #tabela, #table tbody, #tabela tr, #tabela td{
+        display: block;
+        width: 100%;
     }
-    table,th,td{
-        border: 1px solid black;
-        font-size: 28px;
-        border-collapse: collapse;
-        font-weight: normal;
-        font-family: 'Inter var';
-        color: #0E333D;
-    }
-    table,th{
-        text-align: center;
-    }
-    table ,th,td:first-child{
-        padding-top: 2%;
-    
-    }
-    td,th{
-        width:80%;
-        height: 100px;
-        padding: 20px 85px;
-    }
-    table ,th,td:last-child{
-        padding-left:4%;
-        padding-top: 1%;
-    }
-    table td:last-child{
-        padding-bottom: 2%;
-    }
-    table th:last-child{
-        padding-bottom: 2%;
-    }
-    table{
-        position: absolute;
-        width: 300px;
-        top: 23%;
-        left: 5%;
+    #tabela tr{
+        margin-bottom: 15px;
     }
 }
 @media screen and (min-width:1200){

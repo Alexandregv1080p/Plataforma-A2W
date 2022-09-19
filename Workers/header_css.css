@@ -19,6 +19,7 @@
     left: 3%;
     top: 20%;
     background: url(A2W\ PA\ branco\ \(2\)\(1\)\ 1.png);
+    background: no-repeat;
 }
 #buscar{
     position: absolute;
@@ -106,4 +107,24 @@
    display: block;
    left: 20%;
 
+}
+@media(max-width:1400px){
+    #head{
+        position: absolute;
+        width: 160%;
+        height: 16%;
+        left: 0px;
+        top: 0px;
+        background: #0E333D;
+    }
+}
+@media(min-width:500px){
+    #head{
+        position: absolute;
+        width: 260%;
+        height: 16%;
+        left: 0px;
+        top: 0px;
+        background: #0E333D;
+    }
 }
