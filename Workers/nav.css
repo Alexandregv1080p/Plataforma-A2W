@@ -44,51 +44,107 @@ table ,th,td:last-child{
     padding-left:4%;
     padding-top: 1%;
 }
+table td:last-child{
+    padding-bottom: 2%;
+}
+table th:last-child{
+    padding-bottom: 2%;
+}
 table{
     position: absolute;
     top: 23%;
     left: 5%;
 }
-#check{
+.check{
     position: absolute;
-    min-width: 30px;
-    min-height: 30px;
-    right: 25px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    min-width: 33px;
+    min-height: 33px;
+    right:25px;
+    background: #0E333D;
+    
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    top: 3px;
+    left: 1px;
+    background-color:#e9e9e9;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 0.2px;
+    left: 0px;
+    background-color:#D9D9D9;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(27, 5, 5);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    left: 15px;
 }
 #add{
     position: absolute;
-    width: 99px;
+    width: 90px;
     height: 40px;
-    left: 88%;
-    top:17%;
+    left: 90.5%;
+    top:18%;
     background: #0E333D;
     border-radius: 10px;
     color: white;
     cursor: pointer;
 }
 .circulo-verde{
+<<<<<<< HEAD
     width: 33px;
     height: 33px;
+=======
+    width: 35px;
+    height: 35px;
+>>>>>>> 4ed095254c61bea81e8d33e6c9d16b8a8e090815
     background-color: rgb(65, 199, 60);
     border-radius: 50px;
     margin-left: 27px;
 }
 .circulo-amarelo{
+<<<<<<< HEAD
     width: 33px;
     height: 33px;
+=======
+    width: 35px;
+    height: 35px;
+>>>>>>> 4ed095254c61bea81e8d33e6c9d16b8a8e090815
     background-color: rgb(204, 187, 31);
     border-radius: 50px;
     margin-left: 27px;
 }
 .circulo-vermelho{
+<<<<<<< HEAD
     width: 33px;
     height: 33px;
+=======
+    width: 35px;
+    height: 35px;
+>>>>>>> 4ed095254c61bea81e8d33e6c9d16b8a8e090815
     background-color: rgb(245, 10, 10);
     border-radius: 50px;
     margin-left: 27px;
 }
+<<<<<<< HEAD
 #start{
     width: 600px;
     height: 400px;
@@ -101,4 +157,108 @@ table{
     width: 600px;
     height: 100px;
     background-color: #0E333D;
+=======
+#menu-start{
+    position: absolute;
+    width: 700px;
+    height: 420px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px black;
+    top: 300px;
+    left: 35%;
+}
+#parte-cima{
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    background-color: #0E333D;
+}
+#parte-cima h1{
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    top: 30px;
+    left: 30px;
+}
+#fechar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(83, 95, 95);
+    left:85%;
+    top:20%;
+    cursor: pointer;
+}
+#menu-start{
+    visibility: hidden;
+}
+#xzinho{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 20px;
+    top: 15px;
+}
+#conteudo-start{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+}
+#conteudo-start h3, p{
+    padding: 8px;
+}
+#menu-start #wor{
+    position: absolute;
+    top:22%;
+    left: 27px;
+}
+#menu-start #wor{
+    position: absolute;
+    top:29%;
+    left: 27px;
+}
+#menu-start #stat{
+    position: absolute;
+    top:28%;
+    left: 480px;
+}
+#start-stop{
+    display: flex;
+    position: absolute;
+    top: 74%;
+    left: 27%;
+}
+#start-stop button{
+    margin: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#green-btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(36, 172, 36);
+}
+
+#red-btn{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+input:checked ~ #check{
+    position: absolute;
+    background: #0E333D;
+}
+@media screen and (min-width:1400){
+    td{
+        padding: 20px 75px;
+    }
+}
+@media screen and (min-width:1200){
+    table td,tr{
+        padding: 15px 60px;
+    }
+>>>>>>> 4ed095254c61bea81e8d33e6c9d16b8a8e090815
 }

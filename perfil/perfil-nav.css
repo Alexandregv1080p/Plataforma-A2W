@@ -56,6 +56,7 @@ legend{
     right: 7%;
     top: 400px;
     width: 92%;
+    visibility: hidden;
 }
 .field-2{
     top: 140%;
