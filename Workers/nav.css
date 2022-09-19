@@ -21,7 +21,7 @@ html { font-family: 'Inter', sans-serif; }
     color: #0E333D;
 }
 table,th,td{
-    padding: 0% 70px;
+    padding: 0 70px;
     border: 1px solid black;
     font-size: 28px;
     border-collapse: collapse;
@@ -30,7 +30,7 @@ table,th,td{
     color: #0E333D;
 }
 td{
-    padding: 20px 85px;
+    padding: 13px 85px;
 }
 table,th{
     text-align: center;
@@ -69,23 +69,36 @@ table{
     cursor: pointer;
 }
 .circulo-verde{
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     background-color: rgb(65, 199, 60);
     border-radius: 50px;
-    margin-left: 25px;
+    margin-left: 27px;
 }
 .circulo-amarelo{
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     background-color: rgb(204, 187, 31);
     border-radius: 50px;
-    margin-left: 25px;
+    margin-left: 27px;
 }
 .circulo-vermelho{
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     background-color: rgb(245, 10, 10);
     border-radius: 50px;
-    margin-left: 25px;
+    margin-left: 27px;
+}
+#start{
+    width: 600px;
+    height: 400px;
+    background-color: #ebf0f1;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+}
+#fundo-verde{
+    width: 600px;
+    height: 100px;
+    background-color: #0E333D;
 }
