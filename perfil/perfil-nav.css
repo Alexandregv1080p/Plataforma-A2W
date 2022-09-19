@@ -75,3 +75,113 @@ legend{
     font-size: 20px;
     cursor: pointer;
 }
+#perfil{
+        padding-left:30%;
+    }
+@media(max-width:1600px){
+    #add{
+        position: absolute;
+        left: 86%;
+    }
+}
+@media(max-width:1300px){
+    #add{
+        position: absolute;
+        left: 84%;
+    }
+    #cl{
+        position: absolute;
+        font-size: 23px;
+        left: 50px;
+
+    }
+    legend{
+        font-size: 22px;
+    }
+}
+@media(max-width:1100px){
+    #add{
+        position: absolute;
+        left: 83%;
+    }
+}
+@media(max-width:1000px){
+    #add{
+        position: absolute;
+        left: 79%;
+        width: 86px;
+    }
+    #cl{
+        position: absolute;
+        font-size: 21px;
+        left: 50px;
+
+    }
+    legend{
+        font-size: 20px;
+    }
+}
+@media(max-width:800px){
+    #add{
+        position: absolute;
+        left: 77%;
+    }
+    #cl{
+        position: absolute;
+        font-size: 21px;
+        left: 50px;
+
+    }
+    legend{
+        font-size: 18px;
+    }
+    .field-2{
+        top: 140%;
+        left: 1%;
+        width: 700px;
+        height: 53px;
+        padding: 1px;
+        margin: 20px;
+        font-size: 14px;
+    }
+    #altera{
+        left:60px;
+        font-size: 18px;
+    }
+    .field-2 legend{
+        font-size: 14px;
+    }
+    
+}
+@media(max-width:700px){
+    #add{
+        position: absolute;
+        left: 77%;
+        width: 79px;
+    }
+    #cl{
+        position: absolute;
+        font-size: 21px;
+        left: 50px;
+
+    }
+    legend{
+        font-size: 20px;
+    }
+    .field-2{
+        top: 140%;
+        left: 1%;
+        width: 700px;
+        height: 50px;
+        padding: 3px;
+        margin: 15px;
+        font-size: 10px;
+    }
+    .field-2 legend{
+        font-size: 12px;
+    }
+    .field-2 input{
+        font-size: 16px;
+    }
+    
+}

@@ -107,3 +107,133 @@ input:checked + .slider:before {
     text-transform: uppercase;
     font-size: 18px;
 }
+@media(max-width:1500px){
+    fieldset{
+        position: absolute;
+        top: 140%;
+        left: 4%;
+        width: 90%;
+        height: 50%;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}
+@media(max-width:1400px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 86%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-width:1300px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 86%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .switch {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 130px;
+        width: 50px;
+        height: 33px;
+    }
+}
+@media(max-width:1100px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 84%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .switch {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 130px;
+        width: 50px;
+        height: 33px;
+    }
+}
+@media(max-width:1000px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 84%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .switch {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 130px;
+        width: 50px;
+        height: 33px;
+    }
+}
+@media(max-width:900px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 82%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .switch {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 130px;
+        width: 50px;
+        height: 33px;
+    }
+}
+@media(max-width:700px){
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 78%;
+        top:110%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .switch {
+        position: absolute;
+        display: inline-block;
+        top: 300px;
+        left: 130px;
+        width: 50px;
+        height: 33px;
+    }
+    
+}
