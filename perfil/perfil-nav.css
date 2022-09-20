@@ -92,8 +92,18 @@ legend{
         left: 50px;
 
     }
-    legend{
-        font-size: 22px;
+    .nome-perfil{
+        width: 90%;
+        font-size: 18px;
+    }
+    #content legend{
+        font-size: 18px;
+    }
+    .field-2 legend{
+        font-size: 18px;
+    }
+    .field-2{
+        padding: 10px;
     }
 }
 @media(max-width:1100px){
@@ -117,6 +127,7 @@ legend{
     legend{
         font-size: 20px;
     }
+    
 }
 @media(max-width:800px){
     #add{
@@ -141,12 +152,17 @@ legend{
         margin: 20px;
         font-size: 14px;
     }
+    
     #altera{
         left:60px;
         font-size: 18px;
     }
     .field-2 legend{
         font-size: 14px;
+    }
+    .field-2 .nome-perfil{
+        width: 90%;
+        height: 80%;
     }
     
 }
@@ -165,6 +181,10 @@ legend{
     legend{
         font-size: 20px;
     }
+    .nome-perfil{
+        width: 90%;
+        font-size: 14px;
+    }
     .field-2{
         top: 140%;
         left: 1%;
@@ -177,8 +197,9 @@ legend{
     .field-2 legend{
         font-size: 12px;
     }
-    .field-2 input{
-        font-size: 16px;
+    .field-2 .nome-perfil{
+        width: 90%;
+        height: 70%;
     }
     
 }

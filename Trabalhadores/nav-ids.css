@@ -246,3 +246,94 @@ table{
         cursor: pointer;
     }
 }
+@media(max-width:800px){
+    table{
+        position: absolute;
+        width: 88%;
+        height: 406px;
+        left: 55px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+    }
+    th{
+        line-height: 5px;
+        color: #000000;
+    }
+    #add{
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        left: 85%;
+        top:20%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-width:700px){
+    table{
+        position: absolute;
+        width: 88%;
+        height: 306px;
+        left: 43px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+    }
+    th{
+        line-height: 5px;
+        color: #000000;
+        font-size: 8px;
+    }
+    #add{
+        position: absolute;
+        width: 72px;
+        height: 27px;
+        left: 85%;
+        top:20%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-width:600px){
+    table{
+        position: absolute;
+        width: 88%;
+        height: 306px;
+        left: 43px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+    }
+    th{
+        line-height: 5px;
+        color: #000000;
+    }
+    #add{
+        position: absolute;
+        width: 72px;
+        height: 27px;
+        left: 85%;
+        top:20%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
