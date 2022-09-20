@@ -215,7 +215,6 @@
         position: static;
     }
 }
-
 @media(max-width:900px){
     .info{
         right: 20%;
@@ -227,19 +226,19 @@
     }
     #logo{
         position: absolute;
-        width: 90px;
-        height: 60px;
+        width: 130px;
+        height: 70px;
         left: 20px;
     }
     #buscar{
         position: absolute;
-        width: 41%;
+        width: 38%;
         height: 38%;
         left: 17%;
         font-size: 15px;
     }
     #lupa{
-        top:44%;
+        top:40%;
     }
 }
 @media(max-width:800px){
@@ -253,19 +252,20 @@
     }
     #logo{
         position: absolute;
-        width: 90px;
-        height: 60px;
+        width: 120px;
+        height: 70px;
         left: 20px;
     }
     #buscar{
         position: absolute;
-        width: 41%;
-        height: 41%;
-        left: 17%;
+        width: 38%;
+        height: 38%;
+        left: 20%;
         font-size: 15px;
     }
     #lupa{
-        top:44%;
+        top:40%;
+        left: 22%;
     }
     #perfil{
         padding-left: 30%;
@@ -301,7 +301,8 @@
         padding-left:30%;
     }
     #lupa{
-        top:48%;
+        top:44%;
+        left: 18%;
     }
 }
 @media(max-width:600px){
@@ -322,7 +323,7 @@
     }
     #buscar{
         position: absolute;
-        width: 38%;
+        width: 32%;
         height: 32%;
         left: 17%;
         font-size: 11px;
@@ -332,7 +333,7 @@
         font-size: 3px;
     }
     #lupa{
-        top:48%;
+        top:47%;
     }
     #left{
         width:40px;
@@ -384,7 +385,7 @@
     }
     
 }
-@media(max-height:1000px){
+@media(min-height:1000px){
     #head{
         position: absolute;
         width: 100%;
@@ -395,10 +396,10 @@
     }
     
 }
-@media(max-height:800px){
+@media(min-height:800px){
     #logo{
         position: absolute;
-        width: 127px;
+        width: 117px;
         height: 73px;
         left: 45px;
         top: 34px;
@@ -422,51 +423,5 @@
         left: 0px;
         top: 0px;
         background: #0E333D;
-    }
-}
-@media(max-height:700px){
-    #logo{
-        position: absolute;
-        width: 117px;
-        height: 63px;
-        left: 45px;
-        top: 28px;
-        background: no-repeat;
-        right: 300px;
-    }
-    #lupa{
-        box-sizing: border-box;
-        position: absolute;
-        left: 18%;
-        right: 78.26%;
-        top:42%;
-        width: 2%;
-        bottom: 90.92%;
-        cursor: pointer;
-    }
-    #buscar{
-        position: absolute;
-        width: 41.4%;
-        height: 41%;
-        left: 17%;
-        top: 33px;
-        background: #FFFFFF;
-        border-radius: 100px;
-        border: 1px solid rgba(255, 255, 255, .1);
-        font-weight: 300;
-        padding-left: 5%;
-        font-size: 18px;
-        color: #8795a2;
-    }
-    .info{
-        right: 20%;
-        padding-left: 25%;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size:17px;
-        text-decoration: none;
-        color: white;
-        position: static;
     }
 }
