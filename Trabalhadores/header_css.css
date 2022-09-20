@@ -240,7 +240,7 @@
     #buscar{
         position: absolute;
         width: 41%;
-        height: 38%;
+        height: 41%;
         left: 17%;
         font-size: 15px;
     }
@@ -266,14 +266,14 @@
         width: 40%;
         height: 32%;
         left: 17%;
-        font-size: 14px;
+        font-size: 11px;
         top: 50px;
     }
     #perfil{
-        padding-left:20%;
+        padding-left:30%;
     }
     #lupa{
-        top:51%;
+        top:48%;
     }
 }
 @media(max-width:600px){
@@ -297,7 +297,7 @@
         width: 38%;
         height: 32%;
         left: 17%;
-        font-size: 14px;
+        font-size: 11px;
     }
     #perfil{
         padding-left:20%;

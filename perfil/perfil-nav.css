@@ -75,9 +75,6 @@ legend{
     font-size: 20px;
     cursor: pointer;
 }
-#perfil{
-        padding-left:30%;
-    }
 @media(max-width:1600px){
     #add{
         position: absolute;
