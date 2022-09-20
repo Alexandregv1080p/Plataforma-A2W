@@ -19,7 +19,7 @@ td{
 table{
     position: absolute;
     width: 90%;
-    height: 706px;
+    height: 506px;
     left: 70px;
     top: 240px;
     background: #FFFFFF;
@@ -34,18 +34,18 @@ table{
     width: 208px;
     height: 25px;
     left: 5%;
-    top: 19%;
+    top:155px;
     font-family: 'Inter var', sans-serif; 
     font-weight: 700px;
     font-size: 22px;
     line-height: 31px;
-    color: #0E333D;
+    color: #3d6b00;
 }
 #add{
     position: absolute;
     width: 99px;
     height: 40px;
-    left: 88%;
+ 
     top:18%;
     background: #0E333D;
     border-radius: 10px;
@@ -59,10 +59,10 @@ table{
 @media(max-width:1400px){
     table{
         position: absolute;
-        width: 90%;
-        height: 570px;
+        width: 85%;
+        height: 670px;
         left: 70px;
-        top: 240px;
+        top: 220px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -77,15 +77,26 @@ table{
         height: 20px;
         left: 0px;
         border-collapse: collapse;
+    }
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top:18%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
     }
 }
 @media(max-width:1300px){
     table{
         position: absolute;
-        width: 90%;
+        width: 85%;
         height: 590px;
         left: 70px;
-        top: 240px;
+        top: 220px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -100,6 +111,17 @@ table{
         height: 20px;
         left: 0px;
         border-collapse: collapse;
+    }
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top:18%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
     }
 }
 @media(max-width:1200px){
@@ -141,6 +163,17 @@ table{
         font-size: 21px;
         line-height: 22px;
         color: #000000;
+    }
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top:18%;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
     }
 
 }
@@ -185,7 +218,7 @@ table{
         position: absolute;
         width: 85%;
         height: 506px;
-        left: 70px;
+        right: 200%;
         top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
@@ -208,7 +241,8 @@ table{
         position: absolute;
         width: 89px;
         height: 35px;
-        left: 85%;
+        left: 44%;
+        right: 2%;
         top:20%;
         background: #0E333D;
         border-radius: 10px;
@@ -219,10 +253,9 @@ table{
 @media(max-width:900px){
     table{
         position: absolute;
-        width: 88%;
+        width: 84%;
         height: 506px;
-        left: 55px;
-        top: 240px;
+        top: 200px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -236,9 +269,8 @@ table{
     }
     #add{
         position: absolute;
-        width: 89px;
-        height: 35px;
-        left: 85%;
+        width: 56px;
+        height: 25px;
         top:20%;
         background: #0E333D;
         border-radius: 10px;
@@ -251,7 +283,7 @@ table{
         position: absolute;
         width: 88%;
         height: 406px;
-        left: 55px;
+        left: 34px;
         top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
@@ -281,7 +313,7 @@ table{
         position: absolute;
         width: 88%;
         height: 306px;
-        left: 43px;
+        left: 40px;
         top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
@@ -338,3 +370,193 @@ table{
     }
 }
 
+@media(max-height:1200px){
+    #model{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top: 170px;
+        font-family: 'Inter var', sans-serif; 
+        font-weight: 700px;
+        font-size: 22px;
+        line-height: 31px;
+        color: #0E333D;
+    }
+    table{
+        position: absolute;
+        width: 90%;
+        height: 506px;
+        left: 70px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+}
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top: 170px;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-height:1000px){
+    #model{
+        position: absolute;
+        width: 208px;
+        height: 25px;
+        left: 5%;
+        top: 170px;
+        font-family: 'Inter var', sans-serif; 
+        font-weight: 700px;
+        font-size: 22px;
+        line-height: 31px;
+        color: #0E333D;
+    }
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top: 170px;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    table{
+        position: absolute;
+        width: 90%;
+        height: 506px;
+        left: 70px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+}
+}
+@media(max-height:800px){
+    table{
+        position: absolute;
+        width: 90%;
+        height: 506px;
+        left: 70px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+}
+    #model{
+        position: absolute;
+        width: 208px;
+        height: 25px;
+        left: 5%;
+        top: 170px;
+        font-family: 'Inter var', sans-serif; 
+        font-weight: 700px;
+        font-size: 22px;
+        line-height: 31px;
+        color: #0E333D;
+    }
+        #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top:170px;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media(max-height:700px){
+    table{
+        position: absolute;
+        width: 90%;
+        height: 506px;
+        left: 70px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+}
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top: 170px;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    #model{
+        position: absolute;
+        width: 208px;
+        height: 25px;
+        left: 5%;
+        top: 170px;
+        font-family: 'Inter var', sans-serif; 
+        font-weight: 700px;
+        font-size: 19px;
+        line-height: 31px;
+        color: #3d6b00;
+    }
+}
+@media(max-height:600px){
+    #model{
+        position: absolute;
+        width: 208px;
+        height: 25px;
+        left: 5%;
+        top: 170px;
+        font-family: 'Inter var', sans-serif; 
+        font-weight: 700px;
+        font-size: 19px;
+        line-height: 31px;
+        color: #3d6b00;
+    }
+    table{
+        position: absolute;
+        width: 90%;
+        height: 506px;
+        left: 70px;
+        top: 240px;
+        background: #FFFFFF;
+        border: 1px solid #494848;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 100px;
+}
+    #add{
+        position: absolute;
+        width: 99px;
+        height: 40px;
+        left: 88%;
+        top: 170px;
+        background: #0E333D;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}

@@ -319,3 +319,70 @@
         margin-left: 0.2%;
      }
 }
+@media(max-height:800px){
+    #logo{
+        position: absolute;
+        width: 127px;
+        height: 73px;
+        left: 45px;
+        top: 34px;
+        background: no-repeat;
+        right: 300px;
+    }
+    #lupa{
+        box-sizing: border-box;
+        position: absolute;
+        left: 18%;
+        right: 78.26%;
+        top:40%;
+        width: 2%;
+        bottom: 90.92%;
+        cursor: pointer;
+    }
+}
+@media(max-height:700px){
+    #logo{
+        position: absolute;
+        width: 117px;
+        height: 63px;
+        left: 45px;
+        top: 28px;
+        background: no-repeat;
+        right: 300px;
+    }
+    #lupa{
+        box-sizing: border-box;
+        position: absolute;
+        left: 18%;
+        right: 78.26%;
+        top:42%;
+        width: 2%;
+        bottom: 90.92%;
+        cursor: pointer;
+    }
+    #buscar{
+        position: absolute;
+        width: 44.4%;
+        height: 41%;
+        left: 17%;
+        top: 33px;
+        background: #FFFFFF;
+        border-radius: 100px;
+        border: 1px solid rgba(255, 255, 255, .1);
+        font-weight: 300;
+        padding-left: 5%;
+        font-size: 18px;
+        color: #8795a2;
+    }
+    .info{
+        right: 20%;
+        padding-left: 25%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+        position: static;
+    }
+}
