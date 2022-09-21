@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-bottom: 0px;
+}
+#img-fundo {
+    position: absolute;
+    width: 1229px;
+    height: 961px;
+    top: 0px;
+    left: 0px;
+    background: url(vs1\ 1.png);
+    background-size: cover;
+}
+#espaço-branco {
+    position: absolute;
+    width: 1176px;
+    height: 961px;
+    left: 726px;
+    top: 0px;
+    background: #FFFFFF;
+    clip-path: ellipse(104% 99% at 104% );
+}
+#content {
+    position: absolute;
+    left: 370px;
+    right: 7%;
+    top: 254px;
+    width: 62%;
+}
+.field-1 {
+    top: 140%;
+    left: 19%;
+    width: 53%;
+    padding: 16px;
+    margin: 20px;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 5px;
+    color: rgb(126, 138, 126);
+}
+legend{
+    font-size: 20px;
+}
+.nome-perfil{
+    width: 80%;
+    outline:none;  /*remove as bordas do input*/
+    font-size: 20px;
+}
+#entrar{
+    position: absolute;
+    left: 20px;
+    width: 421px;
+    height: 50px;
+    background: #0E333D;
+    border-radius: 10px;
+    font-family: 'Inter''sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.txt {
+    position: absolute;
+    left: 463px;
+    top: 220px;
+    font-family: 'Inter' 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    color: #0E333D;
+}
+.txt-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #0E333D;
+}
+#content-2 {
+    position: absolute;
+    left: 570px;
+    top: 744px;
+    line-height: 35px;
+    text-align: center;
+    color: #0E333D;
+}
+a{
+    text-decoration: none;
+}

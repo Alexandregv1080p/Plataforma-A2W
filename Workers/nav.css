@@ -440,7 +440,7 @@ input[type=checkbox]:checked:after {
         width: 208px;
         height: 25px;
         left: 5%;
-        top: 19%;
+        top: 30%;
         font-family: 'Inter var', sans-serif; 
         font-weight: 700px;
         font-size: 13px;
