@@ -396,32 +396,4 @@
     }
     
 }
-@media(min-height:800px){
-    #logo{
-        position: absolute;
-        width: 117px;
-        height: 73px;
-        left: 45px;
-        top: 34px;
-        background: no-repeat;
-        right: 300px;
-    }
-    #lupa{
-        box-sizing: border-box;
-        position: absolute;
-        left: 18%;
-        right: 78.26%;
-        top:40%;
-        width: 2%;
-        bottom: 90.92%;
-        cursor: pointer;
-    }
-    #head{
-        position: absolute;
-        width: 100%;
-        height: 130px;
-        left: 0px;
-        top: 0px;
-        background: #0E333D;
-    }
-}
+
