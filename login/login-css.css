@@ -592,11 +592,11 @@ a{
 }
 @media(max-width:700px){
     #img-fundo {
-        width: 849px;
+        width: 811px;
     }
     #espaço-branco {
         position: absolute;
-        width: 623px;
+        width: 600px;
         height: 130.3%;
         left: -36px;
         top: 0px;
@@ -631,7 +631,7 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 309px;
+        width: 293px;
     }
     #content-2 {
         left: 467px;
@@ -671,11 +671,11 @@ a{
 }
 @media(max-width:600px){
     #img-fundo {
-        width: 800px;
+        width: 778px;
     }
     #espaço-branco {
         position: absolute;
-        width: 598px;
+        width: 546px;
         height: 130.3%;
         left: -36px;
         top: 0px;
@@ -685,13 +685,7 @@ a{
     #conteudo {
         position: absolute;
         width: 122%;
-        left: -181px;
-        top: 94px;
-    }
-    #conteudo {
-        position: absolute;
-        width: 122%;
-        left: -171px;
+        left: -237px;
         top: 94px;
     }
     .nome-perfil {
@@ -710,11 +704,11 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 309px;
+        width: 271px;
     }
     #content-2 {
-        left: 467px;
-        top: 516px;
+        left: 463px;
+        top: 503px;
     }
     legend {
         font-size: 16px;
@@ -728,12 +722,12 @@ a{
     }
     .txt {
         position: absolute;
-        left: 405px;
-        top: 219px;
+        left: 414px;
+        top: 231px;
         font-family: 'Inter' 'sans-serif';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 35px;
         text-align: center;
         color: #0E333D;
@@ -742,7 +736,7 @@ a{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 19px;
         text-align: center;
         color: #0E333D;
