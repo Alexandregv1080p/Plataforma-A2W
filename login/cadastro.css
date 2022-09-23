@@ -7,7 +7,7 @@
 #img-fundo {
     position: absolute;
     width: 1229px;
-    height: 961px;
+    height: 969px;
     top: 0px;
     left: 0px;
     background: url(vs1\ 1.png);
@@ -16,7 +16,7 @@
 #espaço-branco {
     position: absolute;
     width: 1176px;
-    height: 961px;
+    height: 969px;
     left: 726px;
     top: 0px;
     background: #FFFFFF;
@@ -64,7 +64,7 @@ legend{
 }
 .txt {
     position: absolute;
-    left: 463px;
+    left: 409px;
     top: 220px;
     font-family: 'Inter' 'sans-serif';
     font-style: normal;
@@ -85,11 +85,15 @@ legend{
 }
 #content-2 {
     position: absolute;
-    left: 570px;
-    top: 744px;
+    left: 520px;
+    top: 553px;
     line-height: 35px;
     text-align: center;
     color: #0E333D;
+}
+#conteudo{
+    position: absolute;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -227,6 +231,13 @@ a{
         border-radius: 5px;
         color: rgb(126, 138, 126);
     }
+    #content-2 {
+        left: 529px;
+        top: 733px;
+    }
+    #entrar{
+        width: 337px;
+    }
 }
 @media(max-width:1500px){
     #img-fundo {
@@ -335,6 +346,16 @@ a{
         border-radius: 5px;
         color: rgb(126, 138, 126);
     }
+    #entrar {
+        width: 302px;
+    }
+    legend {
+        font-size: 15px;
+    }
+    #content-2 {
+        left: 510px;
+        top: 717px;
+    }
 }
 @media(max-width:1200px){
     #img-fundo {
@@ -406,6 +427,16 @@ a{
         border: 1px solid rgb(90, 88, 88);
         border-radius: 5px;
         color: rgb(126, 138, 126);
+    }
+    #entrar {
+        width: 356px;
+    }
+    #content-2 {
+        left: 543px;
+        top: 717px;
+    }
+    .txt {
+        left: 422px;
     }
 }
 @media(max-width:1000px){
@@ -480,22 +511,22 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 371px;
+        width: 326px;
     }
     #content-2 {
-        left: 498px;
-        top: 534px;
+        left: 391px;
+        top: 673px;
     }
     #content {
         position: absolute;
-        left: 370px;
+        left: 237px;
         right: 7%;
         top: 254px;
         width: 64%;
     }
     .txt {
         position: absolute;
-        left: 435px;
+        left: 324px;
         top: 220px;
         font-family: 'Inter' 'sans-serif';
         font-style: normal;
@@ -551,22 +582,22 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 347px;
+        width: 285px;
     }
     #content-2 {
-        left: 492px;
-        top: 534px;
+        left: 376px;
+        top: 673px;
     }
     #content {
         position: absolute;
-        left: 370px;
+        left: 237px;
         right: 7%;
         top: 254px;
         width: 64%;
     }
     .txt {
         position: absolute;
-        left: 428px;
+        left: 324px;
         top: 220px;
         font-family: 'Inter' 'sans-serif';
         font-style: normal;
@@ -627,33 +658,21 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 293px;
+        width: 245px;
     }
     #content-2 {
-        left: 467px;
-        top: 516px;
-    }
-    legend {
-        font-size: 16px;
+        left: 333px;
+        top: 652px;
     }
     #content {
         position: absolute;
-        left: 370px;
+        left: 214px;
         right: 7%;
         top: 254px;
         width: 64%;
     }
     .txt {
-        position: absolute;
-        left: 405px;
-        top: 219px;
-        font-family: 'Inter' 'sans-serif';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 35px;
-        text-align: center;
-        color: #0E333D;
+        left: 271px;
     }
     .txt-2 {
         font-family: 'Inter';
@@ -702,37 +721,28 @@ a{
     #entrar {
         width: 271px;
     }
-    #content-2 {
-        left: 463px;
-        top: 503px;
+    #entrar {
+        width: 226px;
     }
-    legend {
-        font-size: 16px;
+    #content-2 {
+        left: 322px;
+        top: 652px;
     }
     #content {
         position: absolute;
-        left: 370px;
+        left: 214px;
         right: 7%;
         top: 254px;
         width: 64%;
     }
     .txt {
-        position: absolute;
-        left: 414px;
-        top: 231px;
-        font-family: 'Inter' 'sans-serif';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 17px;
-        line-height: 35px;
-        text-align: center;
-        color: #0E333D;
+        left: 260px;
     }
     .txt-2 {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 19px;
         text-align: center;
         color: #0E333D;

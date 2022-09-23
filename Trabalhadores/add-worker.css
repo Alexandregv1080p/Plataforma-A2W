@@ -16,7 +16,7 @@
     width: 99px;
     height: 40px;
     left: 88%;
-    top:120%;
+    top:19%;
     background: #0E333D;
     border-radius: 10px;
     color: white;
@@ -24,13 +24,14 @@
 }
 #nome{
     position: absolute;
-    top: 160%;
+    top: 25%;
     left: 4%;
     width: 90%;
-    height: 40%;
+    height: 7%;
     border: 1px solid black;
     border-radius: 5px;
 }
+
 #model{
     position: absolute;
     width: 208px;
@@ -49,12 +50,12 @@
     outline:none;
     font-size: 20px;
 }
-#caminho{
+#caminho {
     position: absolute;
-    top: 230%;
+    top: 36%;
     left: 4%;
     width: 90%;
-    height: 40%;
+    height: 7%;
     border: 1px solid rgb(119, 106, 106);
     border-radius: 5px;
 }
@@ -156,4 +157,29 @@ input:checked + .slider:before {
     left: 70px;
     text-transform: uppercase;
     font-size: 18px;
+}
+@media(max-width:1000px){
+    fieldset {
+        font-size: 15px;
+    }
+    #nome {
+        height: 6%;
+    }
+    #caminho {
+        height: 6%;
+    }
+}
+@media(max-width:800px){
+    #add{
+        left:83%;
+    }
+    .field-2 {
+
+        padding: 10px;
+        margin: 5px;
+    }
+    .switch {
+        top: 553px;
+        left: 99px;
+    }
 }

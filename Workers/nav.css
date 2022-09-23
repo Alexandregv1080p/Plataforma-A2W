@@ -343,6 +343,9 @@ input[type=checkbox]:checked:after {
         border-radius: 50px;
         margin-left: 35px;
     }
+    #add {
+        left: 81%;
+    }
     .circulo-amarelo{
         width: 20px;
         height: 20px;
@@ -399,7 +402,7 @@ input[type=checkbox]:checked:after {
         right: 30px;
         width: 23px;
         height: 30px;
-        margin: -21px;
+        margin: -22px;
         background: #0E333D;
     }
     #menu-start {
