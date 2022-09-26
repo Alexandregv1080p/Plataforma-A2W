@@ -98,6 +98,13 @@ legend{
 a{
     text-decoration: none;
 }
+#logo{
+    position: absolute;
+    width: 254px;
+    height: 112px;
+    left: 52px;
+    top: 42px;
+}
 @media(max-width:1900px){
     #img-fundo {
         position: absolute;
