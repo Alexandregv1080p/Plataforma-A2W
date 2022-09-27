@@ -379,7 +379,7 @@ input[type=checkbox]:checked:after {
     }
     #tabela {
         position: absolute;
-        width: 84%;
+        width: 92%;
         top: 260px;
         left: 4%;
     }
@@ -402,7 +402,7 @@ input[type=checkbox]:checked:after {
         right: 30px;
         width: 23px;
         height: 30px;
-        margin: -22px;
+        margin: -18px;
         background: #0E333D;
     }
     #menu-start {
@@ -492,6 +492,14 @@ input[type=checkbox]:checked:after {
         top: 300px;
         left: -8%;
         visibility: hidden;
+    }
+    .check {
+        position: absolute;
+        right: 30px;
+        width: 23px;
+        height: 30px;
+        margin: -23px;
+        background: #0E333D;
     }
 }
 @media(max-width:600px){

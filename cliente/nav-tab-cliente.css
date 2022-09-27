@@ -21,7 +21,7 @@ table{
     width: 90%;
     height: 706px;
     left: 70px;
-    top: 210px;
+    top: 240px;
     background: #FFFFFF;
     border: 1px solid #494848;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -45,31 +45,18 @@ table{
     width: 208px;
     height: 25px;
     left: 5%;
-    top:155px;
+    top:193px;
     font-family: 'Inter var', sans-serif; 
     font-weight: 700px;
     font-size: 22px;
     line-height: 31px;
-    color: #3d6b00;
+    color: #040502;
 }
 #white{
     background: #FFFFFF;
     width: 300px;
 }
 @media(max-width:1800px){
-    table{
-        position: absolute;
-        width: 85%;
-        height: 870px;
-        left: 70px;
-        top: 220px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-    }
     #add{
         position: absolute;
         width: 99px;
@@ -92,19 +79,6 @@ table{
     
 }
 @media(max-width:1700px){
-    table{
-        position: absolute;
-        width: 85%;
-        height: 670px;
-        left: 70px;
-        top: 220px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-    }
     #add{
         position: absolute;
         width: 99px;
@@ -155,10 +129,10 @@ table{
 @media(max-width:1400px){
     table{
         position: absolute;
-        width: 85%;
-        height: 670px;
+        width:90%;
+        height: 806px;
         left: 70px;
-        top: 220px;
+        top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -190,10 +164,10 @@ table{
 @media(max-width:1300px){
     table{
         position: absolute;
-        width: 85%;
-        height: 590px;
+        width:90%;
+        height: 806px;
         left: 70px;
-        top: 220px;
+        top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -241,7 +215,7 @@ table{
         width: 208px;
         height: 25px;
         left: 5%;
-        top: 20%;
+        top: 193px;
         font-family: 'Inter var', sans-serif; 
         font-weight: 700px;
         font-size: 18px;
@@ -352,16 +326,17 @@ table{
 @media(max-width:900px){
     table{
         position: absolute;
-        width: 84%;
+        width: 85%;
         height: 506px;
-        top: 200px;
+        right: 200%;
+        top: 240px;
         background: #FFFFFF;
         border: 1px solid #494848;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         font-family: 'Inter', sans-serif;
         margin-bottom: 100px;
-    }
+    }   
     th{
         line-height: 5px;
         color: #000000;
@@ -380,19 +355,19 @@ table{
     
 }
 @media(max-width:800px){
-    table{
+    table {
         position: absolute;
-        width: 88%;
-        height: 406px;
-        left: 20px;
-        top: 240px;
+        width: 89%;
+        left: 37px;
+        height: 504px;
+        top: 263px;
         background: #FFFFFF;
         border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         border-radius: 10px;
         font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-    }
+        margin-bottom: 100px
+    }  
     th{
         line-height: 5px;
         color: #000000;
@@ -402,7 +377,7 @@ table{
         width: 99px;
         height: 40px;
         left: 580px;
-        top: 170px;
+        top: 196px;
         background: #0E333D;
         border-radius: 10px;
         color: white;
@@ -411,15 +386,15 @@ table{
     
 }
 @media(max-width:700px){
-    table{
+    table {
         position: absolute;
-        width: 80%;
-        height: 306px;
-        left: 10px;
-        top: 240px;
+        width: 89%;
+        left: 37px;
+        height: 466px;
+        top: 263px;
         background: #FFFFFF;
         border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         border-radius: 10px;
         font-family: 'Inter', sans-serif;
         margin-bottom: 100px;
@@ -442,7 +417,7 @@ table{
         width: 92px;
         height: 33px;
         left: 480px;
-        top: 170px;
+        top: 196px;
         background: #0E333D;
         border-radius: 10px;
         color: white;
@@ -451,15 +426,15 @@ table{
     
 }
 @media(max-width:600px){
-    table{
+    table {
         position: absolute;
-        width: 85%;
-        height: 306px;
-        left: 43px;
-        top: 240px;
+        width: 89%;
+        left: 37px;
+        height: 466px;
+        top: 263px;
         background: #FFFFFF;
         border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         border-radius: 10px;
         font-family: 'Inter', sans-serif;
         margin-bottom: 100px;
@@ -472,39 +447,8 @@ table{
         position: absolute;
         width: 92px;
         height: 33px;
-        left: 400px;
-        top: 170px;
-        background: #0E333D;
-        border-radius: 10px;
-        color: white;
-        cursor: pointer;
-    }
-    
-}
-@media(max-width:600px){
-    table{
-        position: absolute;
-        width: 85%;
-        height: 306px;
-        left: 43px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-    }
-    th{
-        line-height: 5px;
-        color: #000000;
-    }
-    #add{
-        position: absolute;
-        width: 92px;
-        height: 33px;
-        left: 364px;
-        top: 170px;
+        left: 422px;
+        top: 197px;
         background: #0E333D;
         border-radius: 10px;
         color: white;
@@ -513,169 +457,4 @@ table{
     
 }
 
-@media(max-height:1200px){
-    #model{
-        position: absolute;
-        width: 99px;
-        height: 40px;
-        left: 88%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 22px;
-        line-height: 31px;
-        color: #0E333D;
-    }
-    table{
-        position: absolute;
-        width: 90%;
-        height: 806px;
-        left: 70px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-    
-}
-@media(max-height:1000px){
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 22px;
-        line-height: 31px;
-        color: #0E333D;
-    }
-    table{
-        position: absolute;
-        width: 90%;
-        height: 706px;
-        left: 70px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-}
-@media(max-height:800px){
-    table{
-        position: absolute;
-        width: 90%;
-        height:698px;
-        left: 70px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 22px;
-        line-height: 31px;
-        color: #0E333D;
-    }
-    
-}
-@media(max-height:700px){
-    table{
-        position: absolute;
-        width: 90%;
-        height:498px;
-        left: 32px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-    
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 19px;
-        line-height: 31px;
-        color: #3d6b00;
-    }
-}
-@media(max-height:600px){
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 7%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 19px;
-        line-height: 31px;
-        color: #3d6b00;
-    }
-    table{
-        position: absolute;
-        width: 90%;
-        height:522px;
-        left:40px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-}
-@media(max-height:500px){
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 170px;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 19px;
-        line-height: 31px;
-        color: #3d6b00;
-    }
-    table{
-        position: absolute;
-        width: 90%;
-        height: 406px;
-        left: 20px;
-        top: 240px;
-        background: #FFFFFF;
-        border: 1px solid #494848;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 100px;
-}
-    
-}
+

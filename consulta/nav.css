@@ -13,7 +13,7 @@ html { font-family: 'Inter', sans-serif; }
     width: 208px;
     height: 25px;
     left: 5%;
-    top: 23%;
+    top: 184px;
     font-family: 'Inter var', sans-serif; 
     font-weight: 700px;
     font-size: 18px;
@@ -51,7 +51,7 @@ table{
 #tabela{
     position: absolute;
     width:90%;
-    top: 260px;
+    top: 195px;
     left: 4%;
 }
 @media(max-width:1800px){
@@ -64,6 +64,18 @@ table{
         width: 300px;
         border: 1px solid #000000;
         padding: 20px;
+    }
+    #model {
+        position: absolute;
+        width: 208px;
+        height: 25px;
+        left: 5%;
+        top: 187px;
+        font-family: 'Inter var', sans-serif;
+        font-weight: 700px;
+        font-size: 18px;
+        line-height: 31px;
+        color: #0E333D;
     }
     table ,td,th{
         border-top: 1px solid black;
@@ -233,18 +245,6 @@ table{
         top: 200px;
         left: 4%;
     }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 18px;
-        line-height: 31px;
-        color: #0E333D;
-    }
 }
 @media(max-width:1200px){
     th,td{
@@ -261,19 +261,6 @@ table{
         border-top: 1px solid black;
         border-collapse: collapse;    
     }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 18px;
-        line-height: 31px;
-        color: #0E333D;
-    }
-    
     table{
         position: absolute;
         width:100%;
@@ -286,18 +273,6 @@ table{
         border-radius: 10px;
         font-family: 'Inter', sans-serif;
         margin-bottom: 100px;
-    }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 18px;
-        line-height: 31px;
-        color: #0E333D;
     }
     #tabela{
         position: absolute;
@@ -320,18 +295,6 @@ table{
     table ,td,th{
         border-top: 1px solid black;
         border-collapse: collapse;    
-    }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 13px;
-        line-height: 31px;
-        color: #0E333D;
     }
     table{
         position: absolute;
@@ -367,18 +330,6 @@ table{
     table ,td,th{
         border-top: 1px solid black;
         border-collapse: collapse;    
-    }
-    #model{
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
-        font-size: 13px;
-        line-height: 31px;
-        color: #0E333D;
     }
     table{
         position: absolute;
@@ -419,10 +370,6 @@ table{
         position: absolute;
         width: 208px;
         height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
         font-size: 13px;
         line-height: 31px;
         color: #0E333D;
@@ -466,10 +413,6 @@ table{
         position: absolute;
         width: 208px;
         height: 25px;
-        left: 5%;
-        top: 29%;
-        font-family: 'Inter var', sans-serif; 
-        font-weight: 700px;
         font-size: 13px;
         line-height: 31px;
         color: #0E333D;

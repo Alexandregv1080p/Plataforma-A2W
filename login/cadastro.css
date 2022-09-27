@@ -64,7 +64,7 @@ legend{
 }
 .txt {
     position: absolute;
-    left: 409px;
+    left: 478px;
     top: 220px;
     font-family: 'Inter' 'sans-serif';
     font-style: normal;
@@ -85,8 +85,8 @@ legend{
 }
 #content-2 {
     position: absolute;
-    left: 520px;
-    top: 553px;
+    left: 573px;
+    top: 745px;
     line-height: 35px;
     text-align: center;
     color: #0E333D;
@@ -264,11 +264,14 @@ a{
         color: rgb(126, 138, 126);
     }
     #content-2 {
-        left: 529px;
+        left: 600px;
         top: 733px;
     }
     #entrar{
-        width: 337px;
+        width: 476px;
+    }
+    .txt {
+        left: 490px;
     }
 }
 @media(max-width:1500px){
@@ -316,6 +319,13 @@ a{
         left: 313px;
         top: 146px;
     }
+    #entrar {
+        width: 416px;
+    }
+    #content-2 {
+        left: 569px;
+        top: 733px;
+    }
 }
 @media(max-width:1400px){
     #img-fundo {
@@ -359,6 +369,13 @@ a{
         border-radius: 5px;
         color: rgb(126, 138, 126);
     }
+    #entrar {
+        width: 367px;
+    }
+    #content-2 {
+        left: 548px;
+        top: 731px;
+    }
 }
 @media(max-width:1300px){
     #img-fundo {
@@ -396,13 +413,13 @@ a{
         color: rgb(126, 138, 126);
     }
     #entrar {
-        width: 302px;
+        width: 364px;
     }
     legend {
         font-size: 15px;
     }
     #content-2 {
-        left: 510px;
+        left: 547px;
         top: 717px;
     }
 }
